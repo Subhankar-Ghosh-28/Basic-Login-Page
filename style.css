@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(101, 90, 225);
+}
+
+.login {
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.loginId {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 90%;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(226, 0, 0, 0.2);
+  padding: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+.loginId:hover {
+  transform: scale(1.02);
+}
+h1 {
+  position: relative;
+  color: rgb(4, 10, 57);
+  font-size: 45px;
+  margin-top: 15px;
+  justify-self: center;
+  font-weight: bold;
+}
+h4 {
+  justify-self: center;
+  margin-top: 5px;
+  font-weight: 50%;
+  font-size: 18px;
+}
+.email-wrap {
+  height: 60px;
+  position: relative;
+  width: 100%;
+  margin: 10px auto;
+}
+.email-wrap:hover {
+  transform: scale(1.02);
+}
+.email-wrap input {
+  width: 90%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+.password-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 15px auto;
+}
+.password-wrapper:hover {
+  transform: scale(1.02);
+}
+.password-wrapper input {
+  width: 90%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+.togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.login-button {
+  width: 120px;
+  display: block;
+  padding: 12px;
+  margin: 25px auto;
+  justify-self: center;
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: 8px;
+  color: white;
+  justify-content: center;
+  align-items: baseline;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+.login-button:hover {
+  background-color: indigo;
+}
+#Forgot {
+  color: black;
+  align-self: center;
+  text-decoration: none;
+}
+#Forgot:hover {
+  text-decoration: underline;
+}
+.Forgot {
+  justify-self: center;
+  margin: 25px 0px;
+}
+#sign-in {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #333;
+}
+.social-icons img {
+  width: 45px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 15px;
+}
+.social-icons img:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+
+.fb-icon {
+  padding-bottom: 10px;
+}

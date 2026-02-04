@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="login">
+      <h1>Welcome...</h1>
+      <h4>Login to your account</h4>
+      <div id="loginId" class="loginId">
+        <div class="email-wrap">
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            autocomplete="off"
+          />
+        </div>
+        <div class="password-wrapper">
+          <input
+            type="password"
+            id="password"
+            placeholder="password"
+            autocomplete="new-password"
+          />
+          <button
+            type="button"
+            id="togglePassword"
+            class="togglePassword"
+          ></button>
+        </div>
+
+        <button
+          type="button"
+          onclick="
+        loginUser();
+        "
+          class="login-button"
+          id="js-login-button"
+        >
+          Login
+        </button>
+
+        <div class="Forgot">
+          <a href="forgot.html" id="Forgot">Forgot Password</a>
+        </div>
+      </div>
+      <h3 id="sign-in">or sign in with</h3>
+      <div class="social-icons">
+        <img
+          src="google-icon-png.webp"
+          class="google-icon"
+          onclick="loginWithGoogle()"
+        />
+        <img src="Facebook-logo.png" class="fb-icon" onclick="loginWithFB()" />
+      </div>
+    </div>
+
+    <script src="script/index.js">
+    </script>
+  </body>
+</html>
