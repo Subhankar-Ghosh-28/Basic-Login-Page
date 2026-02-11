@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgb(101, 90, 225);
+  background-color: #FFFDF1;
 }
 
 .login {
@@ -17,9 +17,9 @@ body {
 
 .loginId {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.2);
-  height: 90%;
-  width: 90%;
+  background-color: #FFCE99;
+  height: 100%;
+  width:  auto;
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(226, 0, 0, 0.2);
   padding: 40px;
@@ -30,7 +30,7 @@ body {
 }
 h1 {
   position: relative;
-  color: rgb(4, 10, 57);
+  color: #562F00;
   font-size: 45px;
   margin-top: 15px;
   justify-self: center;
@@ -90,7 +90,7 @@ h4 {
   margin: 25px auto;
   justify-self: center;
   align-items: center;
-  background-color: blueviolet;
+  background-color: #562F00;
   border-radius: 8px;
   color: white;
   justify-content: center;
